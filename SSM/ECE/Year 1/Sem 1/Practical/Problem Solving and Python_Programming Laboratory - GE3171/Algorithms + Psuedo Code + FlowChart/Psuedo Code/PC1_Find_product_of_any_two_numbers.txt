@@ -1,0 +1,5 @@
+PC1_Find_product_of_any_two_numbers
+
+READ values of A and B
+COMPUTE C by multipyling A with B
+PRINT the result

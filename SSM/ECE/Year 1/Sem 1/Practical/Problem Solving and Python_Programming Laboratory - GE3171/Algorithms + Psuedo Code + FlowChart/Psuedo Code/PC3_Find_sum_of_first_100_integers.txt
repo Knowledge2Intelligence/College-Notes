@@ -1,0 +1,10 @@
+PC3_Find_sum_of_first_100_integers
+
+INITIALIZE sum to zero
+INITIALIZE i to zero
+DO WHILE (i less than 100)
+	INCREMENT i by 1
+	ADD i to SUM and store in SUM
+END DO
+PRINT SUM
+STOP

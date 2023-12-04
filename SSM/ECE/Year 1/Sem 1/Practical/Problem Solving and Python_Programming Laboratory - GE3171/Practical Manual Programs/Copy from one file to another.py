@@ -1,0 +1,10 @@
+from shutil import copyfile
+sourcefile = input("Enter source file name : ")
+destinationfile = input("Enter destination file name : ")
+copyfile(sourcefile,destinationfile)
+print("File copied sucessfully")
+c = open(destinationfile, "r")
+print(c.read())
+c.close()
+print()
+print()

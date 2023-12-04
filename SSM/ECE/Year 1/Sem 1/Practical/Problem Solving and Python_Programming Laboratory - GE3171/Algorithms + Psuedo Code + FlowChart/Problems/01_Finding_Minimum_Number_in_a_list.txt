@@ -1,0 +1,24 @@
+01_Finding_Minimum_Number_in_a_list
+
+Problem Statement
+
+Finding the minumum in a list is an example of selection problem.
+
+AL6. 
+
+1. Assign the first value of the list as minimum value.
+2. Compare this value to the other values starting from second value.
+3. When a value is smaller than the present minimum value, then it becomes the new minimum.
+4. Print the minimum value
+
+PC4. 
+
+Min = A[0]
+i = 1
+WHILE (i <= n-1)
+	IF (A[i] < Min) THEN
+		Min = A[i]
+	END IF
+	i = i + 1
+END WHILE
+PRINT Min

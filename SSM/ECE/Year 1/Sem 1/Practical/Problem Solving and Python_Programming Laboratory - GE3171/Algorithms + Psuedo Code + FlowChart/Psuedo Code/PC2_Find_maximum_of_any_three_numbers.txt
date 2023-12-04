@@ -1,0 +1,12 @@
+PC2_Find_maximum_of_any_three_numbers
+
+READ values of A,B,C
+IF A greater than B THEN
+	ASSIGN A to MAX
+ELSE
+	ASSIGN B to MAX
+IF MAX is greater than C THEN
+	PRINT MAX is greatest
+ELSE
+	PRINT C is greatest
+STOP

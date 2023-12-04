@@ -1,0 +1,14 @@
+AL5_Recursive_algorithm_for_finding_the_factorial_of_a_number
+
+Step 1: Start
+Step 2: Read number n
+Step 3: Call factorial (n)
+Step 4: Print factorial (n)
+Step 5: Stop
+
+Factorial (n)
+
+Step 1: if n==1 then return 1
+Step 2: Else
+		f = n*factorial(n-1)
+Step 3: Return f

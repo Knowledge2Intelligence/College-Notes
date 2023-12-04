@@ -1,0 +1,8 @@
+AL3_Algorithms_to_find_the_sum_of_first_100_integers
+
+1. Start
+2. Assign sum = 0, i = 0
+3. Calculate i = i + 1 and sum = sum + i
+4. Check whether i>=100, if no repeat step 3.Otherwise go to next step.
+5. Print the value of sum
+6. Stop

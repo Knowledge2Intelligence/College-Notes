@@ -1,0 +1,37 @@
+02_Inserting_a_Card_in_a_List_of_Sorted_Cards
+
+Problem Statement
+
+Imagine that you are playing a card game. You are holding the cards in your hand and these cards are sorted. you are given excatly one new card. you have to put it into the correct place so that the caeds you are holding are still sorted.
+
+AL7. 
+
+Step 1: Start
+Step 2: Read all numbers in an array A.
+Step 3: Read Key.
+Step 4: From first position to the end of the array compare Key and array element.
+Step 5: If key < A[i] then assign i to pos, and return pos.
+Step 6: From n-1 to pos move the elements one position down.
+Step 7: Now store key value in pos location.
+Step 8: Stop
+
+PC5.
+
+void inserting_card(int A[], int n, int key)
+{
+	int pos;
+	for (i = 0; i <= n-1; i++)
+	{
+	if(key < A[i])
+		{
+		pos =i;
+		return pos;
+		break;
+		}
+	}
+for(i = n-1; i >= pos; i--)
+	{
+	A [i+!] = A[i];
+	}
+A [pos] = key;
+}

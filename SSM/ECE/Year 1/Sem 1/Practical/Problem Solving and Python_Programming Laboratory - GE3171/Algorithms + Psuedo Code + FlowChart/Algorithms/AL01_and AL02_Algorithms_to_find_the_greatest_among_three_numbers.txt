@@ -1,0 +1,18 @@
+AL01_and_AL02_Algorithms_to_find_the_greatest_among_three_numbers
+
+i)
+
+Step 1: Start
+Step 2: Read the three numbers A,B,C
+Step 3: Compare A and B. If A is the greatest perfom step 4 else perform Step 5.
+Step 4: Compare A and C. If A is greatest, output "A is the greatest" else output "C is the greatest".
+Step 5: Compare B and C. If B is the greatest, output "B is the greatest" else output "C is the greatest"
+Step 6: Stop
+
+ii)
+
+Step 1: Start
+Step 2: Read the three numbers A,B,C
+Step 3: Compare A and B. If A is the greatest, store A in MAX, else store B in MAX
+Step 4: Compare MAX and C. IF MAX is the greatest, out "MAX is the greatest" else output "C is the greatest".
+Step 5: Stop

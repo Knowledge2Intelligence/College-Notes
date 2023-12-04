@@ -1,0 +1,9 @@
+AL4_To_find_the_sum_of_first_N_integers
+
+1. Start
+2. Read N
+3. Assign sum = 0, i = 0
+4. Calculate i = i + 1 and sum = sum + i
+5. Check whether i>=N, if not repeat step 4. Otherwise go to next step.
+6. Print the value of sum
+7. Stop
